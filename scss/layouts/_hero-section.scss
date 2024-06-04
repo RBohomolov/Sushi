@@ -3,14 +3,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  &__container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 1.5rem;
-    padding-left: 15rem;
-    align-items: flex-start;
+  &__content {
+    display: flex;
     justify-content: flex-start;
+    padding-left: 140px;
+  }
+
+  &__container {
+    max-height: 410px;
+
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
 
   &__item {
@@ -64,13 +67,13 @@
     &-button {
       background-color: transparent;
       border: 0;
-      position: absolute;
-      bottom: 0;
-      left: 170px;
+      // position: absolute;
+      // bottom: 10px;
+      // left: 170px;
 
       &.next {
         transform: rotate(180deg);
-        left: 740px;
+        // left: 740px;
       }
     }
   }
